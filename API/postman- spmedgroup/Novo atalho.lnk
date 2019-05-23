@@ -1,0 +1,331 @@
+{
+	"id": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+	"name": "SPMEDGRUOP ",
+	"description": "",
+	"order": [
+		"e4a62842-d90f-c487-d0fc-3f21dbe89e44",
+		"9e16fcc8-f2e8-b2a6-5c27-29fbfc263c8b",
+		"fbab2346-9aaa-e19d-b268-8228e1bb90f0",
+		"400252ff-61bc-888d-f553-c981db4b39ae",
+		"0c34ee74-44ff-e483-0934-b470d8f07ae2",
+		"688a55ec-e6ff-8128-3da0-68d383f00282",
+		"afed2b86-819f-a79a-c814-fff067152f3f",
+		"2ea2b06b-02c8-e9f1-7b55-a29f4e397da9",
+		"fc049437-1c98-01d9-8f4b-dc0b5ff4dd34",
+		"3c23e2b2-dd6d-fad6-074f-889f298192fc"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553014867883,
+	"owner": "6676839",
+	"public": false,
+	"requests": [
+		{
+			"id": "0c34ee74-44ff-e483-0934-b470d8f07ae2",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMjA0ODEsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.v-Z3l4bOJRKThgGQzfq_AAlM_vllL3UoHGOVmIX5xDQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMjA0ODEsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.v-Z3l4bOJRKThgGQzfq_AAlM_vllL3UoHGOVmIX5xDQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/consulta",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553101598735,
+			"name": "Cadastrar Consulta ",
+			"description": "",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"responses": [],
+			"rawModeData": " {\n        \"situacao\": \"Teste2\",\n        \"anamnesia\": \"CLINICA\",\n        \"dataCons\": \"2019-01-20T15:00:00\",\n        \"idMedico\": 3,\n        \"idProntuario\": 7\n    }"
+		},
+		{
+			"id": "2ea2b06b-02c8-e9f1-7b55-a29f4e397da9",
+			"headers": "Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMTY2MjAsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.3VJENQFsgqQJsiPZjrcVVnt2eD-8yshxMIUM7pkRZ3k\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMTY2MjAsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.3VJENQFsgqQJsiPZjrcVVnt2eD-8yshxMIUM7pkRZ3k",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/usuario",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Cadastrar Usuario",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553018083239,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n        \"email\": \"helena@gmail.com\",\n        \"senha\": \"123457\",\n        \"idTipoUsuario\": 1,\n        \"medico\": [],\n        \"prontuario\": []\n    \n}"
+		},
+		{
+			"id": "3c23e2b2-dd6d-fad6-074f-889f298192fc",
+			"headers": "Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpY2FyZG8ubGVtb3NAc3BtZWRpY2FsZ3JvdXAuY29tLmJyIiwianRpIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjIiLCJleHAiOjE1NTMwMjUyMzIsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.68f7LdQ19Zl-Va--WvbRRMxZptoZkzSpRumaZhlfy7o\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpY2FyZG8ubGVtb3NAc3BtZWRpY2FsZ3JvdXAuY29tLmJyIiwianRpIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjIiLCJleHAiOjE1NTMwMjUyMzIsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.68f7LdQ19Zl-Va--WvbRRMxZptoZkzSpRumaZhlfy7o",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/consulta",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"data": null,
+			"dataMode": "params",
+			"name": "Listar Consulta por Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553023551303,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "400252ff-61bc-888d-f553-c981db4b39ae",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpY2FyZG8ubGVtb3NAc3BtZWRpY2FsZ3JvdXAuY29tLmJyIiwianRpIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik3DqWRpY28iLCJleHAiOjE1NTMxMDM0MTcsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.d_GYvi2c6SQjrmuSruZjTrRZovQOvTG1ah30q0ExnWo\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJpY2FyZG8ubGVtb3NAc3BtZWRpY2FsZ3JvdXAuY29tLmJyIiwianRpIjoiMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Ik3DqWRpY28iLCJleHAiOjE1NTMxMDM0MTcsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.d_GYvi2c6SQjrmuSruZjTrRZovQOvTG1ah30q0ExnWo",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/consulta",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553793775486,
+			"name": "Listar Consulta ",
+			"description": "",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"responses": []
+		},
+		{
+			"id": "688a55ec-e6ff-8128-3da0-68d383f00282",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMjA0ODEsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.v-Z3l4bOJRKThgGQzfq_AAlM_vllL3UoHGOVmIX5xDQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMjA0ODEsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.v-Z3l4bOJRKThgGQzfq_AAlM_vllL3UoHGOVmIX5xDQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/consulta/8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553022546610,
+			"name": "Atualizar Consulta",
+			"description": "",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"responses": [],
+			"rawModeData": "{\n        \"id\": 8,\n        \"situacao\": \"Teste iuibu\",\n        \"anamnesia\": \"CLINICA\",\n        \"dataCons\": \"2019-01-20T15:00:00\",\n        \"idMedico\": 3,\n        \"idProntuario\": 7\n    }"
+		},
+		{
+			"id": "9e16fcc8-f2e8-b2a6-5c27-29fbfc263c8b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/medico",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"data": null,
+			"dataMode": "params",
+			"name": "Listar Médicos ",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553015143676,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "afed2b86-819f-a79a-c814-fff067152f3f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:5000/api/prontuario",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"data": null,
+			"dataMode": "params",
+			"name": "Listar Prontuario",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553017837302,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e4a62842-d90f-c487-d0fc-3f21dbe89e44",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553793772695,
+			"name": "Login ",
+			"description": "Loga um usuario",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\" : \"ricardo.lemos@spmedicalgroup.com.br\",\n\t\"senha\" : \"123457\"\n}"
+		},
+		{
+			"id": "fbab2346-9aaa-e19d-b268-8228e1bb90f0",
+			"headers": "Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMTY2MjAsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.3VJENQFsgqQJsiPZjrcVVnt2eD-8yshxMIUM7pkRZ3k\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMTY2MjAsImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.3VJENQFsgqQJsiPZjrcVVnt2eD-8yshxMIUM7pkRZ3k",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/usuario",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553101595749,
+			"name": "Listar Usuario",
+			"description": "",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"responses": []
+		},
+		{
+			"id": "fc049437-1c98-01d9-8f4b-dc0b5ff4dd34",
+			"headers": "Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMjExNDksImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.8qdW0wCKdQhQdCD4krUd4V6uuVx_ycBlawuu098myVs\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZlbGlwZUBnbWFpbC5jb20iLCJqdGkiOiIxMSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE1NTMwMjExNDksImlzcyI6IlNwTWVkR3JvdXAuV2ViQXBpIiwiYXVkIjoiU3BNZWRHcm91cC5XZWJBcGkifQ.8qdW0wCKdQhQdCD4krUd4V6uuVx_ycBlawuu098myVs",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/clinica",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a7d210ff-9a6d-f2c5-c836-80c26dd42951",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Cadastrar Clinica ",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553022532829,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		}
+	]
+}
